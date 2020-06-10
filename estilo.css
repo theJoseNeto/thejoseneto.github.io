@@ -1,0 +1,236 @@
+/*mobile version*/
+@media all and (min-width : 0px){
+    body{
+        background: url(photos/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    h1,h2,h3,h4{
+        font-weight: 10;
+        text-align: center;
+        color: white;
+    }
+
+    hr{
+        display: block;
+        width: 60%;
+        margin: 30px auto;
+    }
+    .main_header{
+        background: transparent;
+        position: relative;
+        background-position: top;
+    }
+
+    .main_header h1,a{
+        color: white;
+        text-decoration: none;
+        text-align: center;
+
+    }
+    .main_header p{
+        color: rgba(255, 255, 255, 0.61);
+        text-align: center;
+        width: 80%;
+        margin: 10px auto 0;
+        font-weight: 10;
+    }
+    .main_header li{
+        list-style: none;
+        display: inline-block;
+        padding: 5px;
+        margin-bottom: 10px;
+
+    }
+
+
+    .main_content p{
+        margin: auto 10px;
+    }
+    
+    .profilePic{
+        width: 100px;
+        height: 100px;;
+        display: block;
+        border-radius: 50%;
+        margin: 0 auto 0;
+    }
+    .default_Link{
+        color: white;
+    }
+    .main_content_body{
+        color:white;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+
+    .my_jobs_content{
+        width: 250px;
+        height: 250px;
+        background: #ccc;
+        margin: 10px auto 100px;
+        border-radius: 5px;
+
+    }
+
+    
+
+    .footer_content{
+        background: white;
+        border-radius: 10px 10px 0 0 ;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .footer_content ul{
+        text-align: center left;
+        list-style: none;
+        
+}
+    .footer_content li{
+        margin:0;
+    }
+
+/*
+desktop version
+*/
+
+@media all and (min-width : 786px){
+    body{
+        background: none;
+    }
+    h1,h2,h3,h4{
+        text-align: center;
+        color: black;
+        text-shadow: 1px .2px 2px rgb(121, 121, 121);
+    }
+
+    hr{
+        display: none;
+    }
+    .main_header{
+        
+        box-shadow: 0 0 15px rgba(80, 80, 80, 0.589);    
+        position: fixed;
+        left: 0;
+        top: 0;
+        background: url(photos/bg.jpg);
+        background-size: cover;
+        width: 35%;
+        height: 100%;
+        border-radius: 0 100px 100px 0;
+        border-right: 1px #ccc solid;
+        box-sizing: border-box;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+
+    .main_header p{
+        width: 35%;
+        margin: 150px auto 0;
+        padding: 10px;
+        border-radius: 10px;
+        text-shadow: 1px 1px rgba(129, 129, 129, 0.438);;
+    }
+
+    .profilePic{
+        width: 100px;
+        height: 100px;;
+        display: block;
+        border-radius: 50%;
+        margin: 50px auto 0;
+        box-shadow: 0 0 .5em rgb(0, 0, 0);    
+    }
+
+    .sobre_mim{
+        color: white; 
+        text-align: center; 
+        width: 250px; 
+        margin: 150px auto 0;
+        line-height: 20px;
+        letter-spacing: 1px;
+    }
+
+    .default_Link{
+        border-bottom: rgba(255, 255, 255, 0.74);
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .default_button{
+        width: 200px;
+        color: white;
+        background:rgb(0, 133, 88);
+        padding: 5px;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        transition: ease-in-out .3s;
+
+
+    }
+    .default_button:hover{
+        background:rgb(0, 170, 113);
+    }
+    .main_content p{
+        text-align: left;
+    }
+    .main_content_body{
+        letter-spacing: normal;
+        color:black;
+        transition: 2.3s;
+        display: flex;
+        flex-flow: row wrap;
+        width: 54%;
+        margin-left: 40%;
+    }
+
+    .my_jobs_content{
+        background: #ccc;
+        border-radius: 5px;
+        width: 150px;
+        height: 150px;
+        display: inline-block;
+        margin:30px auto 0;
+        box-shadow: 0 0 .5em rgb(87, 87, 87);    
+
+    }
+
+    .footer_content{
+        background: transparent;
+        width: 35%;
+        left: 0;
+        position: fixed;
+        box-sizing: border-box;
+    }
+
+    .footer_content ul{
+        padding: 0;
+        text-align: center;
+        margin-top: 75px;
+        background: rgba(255, 255, 255, 0.5);
+
+    }
+    .footer_content li{
+        list-style:none;
+        display: inline-block;
+        padding: 5px;
+
+        
+
+    }
+
+    .footer_content a:hover{
+        transition: .3s;
+        color: rgb(0, 133, 88);
+        border-bottom: solid 1px rgb(0, 133, 88) ;
+
+    }
+    
+
+}
+}
