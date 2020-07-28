@@ -3,7 +3,7 @@
     body{
         background: url(photos/bg.jpg);
         background-size: cover;
-        height: 700px;
+        height: 900px;
 
     }
     h1,h2,h3,h4{
@@ -58,6 +58,48 @@
 
 
     }
+
+    .skills{
+        background: rgba(0, 0, 0, 0.295);
+        width: 60%;
+        margin: auto;
+        padding: 10px 20px;
+        border-radius: 20px;
+    }
+    
+        .skills ul{
+            color: white;
+            list-style: none;
+            margin: auto;
+            padding:0;
+            text-align: center;
+            display: block;
+        }
+    
+       
+    
+        .percentage_bar{
+            height: 10px;
+            display: inline-block;
+            border-radius: 10px;
+        }
+    
+        .html{
+            width:95px;
+            margin-left: 10px;
+            background: rgb(185, 80, 10);
+        }
+        .css{
+            width:90px;
+            margin-left:15px;
+            background: rgb(73, 73, 235)
+        }
+        .js{
+            width:20px;
+            margin: auto 55px 0 10px;
+            background: yellow;
+        }
+    
     .default_Link{
         color: white;
     }
@@ -94,7 +136,7 @@
     .container_button{
         padding:25px;
         box-sizing: border-box;
-        margin: 30px auto; 
+        margin: 30px auto 50px; 
     }
 
 
@@ -102,7 +144,7 @@
         font-weight: 500;
         display: block;
         padding: 10px;
-        margin: auto;
+        margin: 0 auto 15px;
         width: 50%;
         border:solid 2px white;
         border-radius: 20px;
@@ -137,8 +179,6 @@ desktop version
 
 
     .main_header p{
-        width: 35%;
-        margin:1px auto 100px;
         padding: 10px;
         border-radius: 10px;
         text-shadow: 1px 1px rgba(129, 129, 129, 0.438);;
@@ -149,7 +189,7 @@ desktop version
         height: 100px;;
         display: block;
         border-radius: 50%;
-        margin: 50px auto 0;
+        margin: 25px auto 0;
         box-shadow: 0 0 .5em rgb(0, 0, 0);    
     }
 
@@ -201,22 +241,24 @@ desktop version
         border: solid .5px #CCC;
         display: block;
         padding: 10px;
-        margin: auto;
+        margin: 0 auto 15px;
         width: 20%;
         background: rgba(255, 255, 255, 0.5);
         color: rgba(0, 0, 0, 0.801);
-        border-radius: 20px;
+        border-radius: 10px;
         transition: linear .2s;
     }
 
     .redirect_button:hover{
         width:21.5% ;
     }
+   
+
     .footer_content{
         background: transparent;
         position: fixed;
-        margin-top: 20px;
         box-sizing: border-box;
+        height: 100px; ;
     }
 
     .footer_content ul{
@@ -224,9 +266,9 @@ desktop version
         padding: 0;
         text-align: center;
         width: 50%;
-        margin: 75px auto 10px;
+        margin:50px auto;
         border-radius: 5px;
-        background: rgba(255, 255, 255, 0.5);
+        background:white;
 
     }
     .footer_content li{
