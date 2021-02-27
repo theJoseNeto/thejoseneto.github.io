@@ -1,0 +1,136 @@
+/* mobile version */
+@media all and (min-width : 0px) {
+
+   body {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+      background: #0d1117;
+      background-size: cover;
+      color: white;
+
+   }
+
+   .profilePic {
+      width: 100px;
+      height: 100px;
+      display: block;
+      border-radius: 50%;
+      margin: 20px auto 0;
+      box-shadow: 0 0 .5em rgb(0, 0, 0);
+   }
+
+   .containerProject img {
+      display: none;
+   }
+
+   .containerProject a {
+      color: white;
+      text-decoration: none;
+      border-bottom: solid 1.2px white;
+      padding-bottom: 3px;
+   }
+}
+
+
+body {
+   padding: 0;
+   margin: 0;
+   background: #0d1117;
+   background-size: cover;
+   color: white;
+}
+
+h1 {
+   text-align: center;
+   color: white;
+   font-weight: 10;
+   text-shadow: 1px .2px 2px rgb(71, 71, 71);
+}
+
+h2,
+h3,
+h4 {
+   color: white;
+   font-weight: 10;
+   text-shadow: 1px .2px 2px rgb(71, 71, 71);
+}
+
+.main_header p {
+   line-height: 20px;
+   padding: 15px;
+   border-radius: 5px;
+   letter-spacing: 1.2px;
+   line-height: 18px;
+   text-align: center;
+   width: 80%;
+   margin: 10px auto 0;
+   font-weight: 10;
+}
+
+.profilePic {
+   width: 170px;
+   height: 170px;
+   display: block;
+   border-radius: 50%;
+   margin: 25px auto 0;
+   box-shadow: 0 0 .5em #000000;
+}
+
+.skills img {
+   width: 30px;
+   margin-left: 10px;
+   border-radius: 10px;
+}
+
+.contact ul {
+   margin: 0;
+   padding: 0;
+   display: flex;
+   list-style: none;
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+}
+
+.contact li {
+   margin: 10px
+}
+
+.contact img {
+   width: 25px;
+}
+
+.containerProject img {
+   width: 500px;
+   border-radius: 5px;
+}
+
+hr {
+   border-color: #161b22;
+}
+
+footer {
+
+   text-align: center;
+   margin: 50px 0 0;
+   background: cornsilk;
+   padding: 10px;
+}
+
+footer p {
+   color: rgb(0, 0, 0);
+}
+
+.msLogo {
+   width: 80px;
+}
+
+/* Desktop version */
+@media all and (min-width : 786px) {
+   .containerProject img {
+      display: block;
+      margin: 40px;
+   }
+
+}
