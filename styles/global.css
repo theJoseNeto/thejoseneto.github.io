@@ -11,6 +11,10 @@
 
    }
 
+   .contentContainer {
+      padding: 15px;
+   }
+
    .profilePic {
       width: 100px;
       height: 100px;
