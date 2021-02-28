@@ -24,6 +24,13 @@
       box-shadow: 0 0 .5em rgb(0, 0, 0);
    }
 
+   .link a {
+      background: #3c00ac;
+      padding: 5px 10px;
+      color: white;
+      border-radius: 5px;
+   }
+
 
    .containerProject img {
       display: none;
