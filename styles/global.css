@@ -141,14 +141,18 @@ footer p {
 /* Desktop version */
 @media all and (min-width : 786px) {
    .containerProject img {
-      display: inline-table;
+      display: block;
       margin: 40px;
    }
-
+   
    .contentContainer {
-      text-align: center;
+      display: inline-table;
+      text-align: left;
    }
 
+   .container {
+      max-width: 700px;
+   }
 
 
 }
