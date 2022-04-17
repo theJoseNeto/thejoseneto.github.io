@@ -31,6 +31,10 @@
       border-radius: 5px;
    }
 
+  
+   .containerProject{
+      text-align: center;
+   }
 
    .containerProject img {
       display: none;
@@ -38,9 +42,8 @@
 
    .containerProject a {
       color: white;
-      text-decoration: none;
-      border-bottom: solid 1.2px white;
-      padding-bottom: 3px;
+      
+      padding-bottom: 2.5px;
    }
 }
 
